@@ -1,0 +1,59 @@
+.main{
+    background-image: url('../img/registration.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 75px 0px;
+}
+.placeholder{
+    color: black;
+}
+.text h1{
+    font-size: 60px;
+}
+.form-box{
+    background-color: rgba(102, 89, 95, 0.568);
+    backdrop-filter: blur(30px);
+    border : 1px solid white;
+    border-radius: 20px;
+}
+.form-box input{
+    border-radius: 10px;
+}
+.form-box input:focus{
+    box-shadow: 0 0 0;
+    border: 1px solid red;
+}
+.input-group-text{
+    border-radius: 0px 10px 0px;
+}
+.register-btn{
+    background-image: linear-gradient(to right,#1723ce,#0f4df8,#0fa3f8);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: #0f4df8;
+}
+.link:hover{
+    color: #0fa3f8;
+}
+@media screen and (max-width:992px){
+    .text{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:767px){
+    .form-box{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+}
